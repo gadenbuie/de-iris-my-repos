@@ -25,3 +25,5 @@ A few options are available in `de_iris_my_repos()`
 - Set `dry_run = TRUE` to return results without doing anything
 
 - Set `ask = FALSE` to go ahead and open issues in all repositories
+
+- Use `extensions` to provide a list of file types where `iris` might be found.

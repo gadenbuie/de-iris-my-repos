@@ -134,7 +134,7 @@ local({
       "It's time to [move on from the `iris` dataset](https://armchairecology.blog/iris-dataset/). ",
       "Try some of the other datasets in `data()`, `ggplot2::mpg`, `dplyr::starwars`, ",
       "or this dataset about [penguins](https://github.com/allisonhorst/penguins).",
-      "\n\nReference(s) to `iris` occur the following files.\n\n{body_files}",
+      "\n\nReference(s) to `iris` occur in the following files.\n\n{body_files}",
       "\n\n### References\n\n{body_lines}"
     )
 

@@ -8,9 +8,9 @@ source("https://git.io/de-iris-my-repos")
 iris_issues <- de_iris_my_repos()
 ```
 
-![](example-issue.png)
+`de_iris_my_repos()` is a simple CLI to search your repositories for references to the `iris` data set and open an issue in each repo where a reference appears to remind you to replace `iris` with another dataset.
 
-This repo contains a simple CLI to search your repositories for references to the `iris` data set and open an issue in each repo where a reference appears to remind you to replace `iris` with another dataset.
+![](example-issue.png)
 
 > It's time to [move on from the `iris` dataset](https://armchairecology.blog/iris-dataset/). Try some of the other datasets in `data()`, `ggplot2::mpg`, `dplyr::starwars`, or this dataset about [penguins](https://github.com/allisonhorst/penguins).
 

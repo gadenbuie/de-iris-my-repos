@@ -20,7 +20,7 @@ The issue description includes a small bit of background and guidance, followed 
 
 A few options are available in `de_iris_my_repos()`
 
-- `user`: The GitHub user name to review, by default the user associated with the GitHub PAT used by [gh](https://github.com/r-lib/gh)
+- Choose which GitHub `user` name to review, by default the user associated with the GitHub PAT used by [gh](https://github.com/r-lib/gh)
 
 - Set `dry_run = TRUE` to return results without doing anything
 

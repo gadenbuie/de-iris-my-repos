@@ -132,7 +132,9 @@ local({
       collapse()
     body <- glue::glue(
       "It's time to [move on from the `iris` dataset](https://armchairecology.blog/iris-dataset/). ",
-      "Try some of the other datasets in `data()`, `ggplot2::mpg`, `dplyr::starwars`, ",
+      "Try some of the other datasets in `data()`, ",
+      "or data in other packages such as `ggplot2::mpg`, `dplyr::starwars`, ",
+      "[<code>fivethirtyeight::bechdel</code>](https://fivethirtyeight-r.netlify.app/articles/bechdel.html), ",
       "or this dataset about [penguins](https://github.com/allisonhorst/penguins).",
       "\n\nReference(s) to `iris` occur in the following files.\n\n{body_files}",
       "\n\n### References\n\n{body_lines}"

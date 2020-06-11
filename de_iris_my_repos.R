@@ -122,7 +122,7 @@ local({
       return(issue_number)
     }
 
-    body_files <- glue::glue("- [ ] [{files$path}]({files$path})") %>% collapse()
+    body_files <- glue::glue("- [ ] [{files$path}]({files$html_url})") %>% collapse()
     body_lines <- purrr::map2_chr(
       files$html_url,
       files$matching_lines,
